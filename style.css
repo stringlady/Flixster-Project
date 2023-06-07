@@ -1,0 +1,31 @@
+* {
+    background-color: darkgray;
+}
+#title h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white; 
+}
+
+img {
+    width: 300px;
+}
+
+.all {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+}
+
+#one {
+    display: flex;
+    justify-content: space-evenly;
+}
+
