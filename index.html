@@ -5,36 +5,32 @@
         <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <script defer src="script.js"></script>
         <div id="title">
-            <h1>&#127871 Flixster</h1>
+            <div>
+                <h1>&#127871 Flixster</h1>
+            
+            <form id="searchForm">
+                <input id="search-input" type="text" placeholder="Search For Movies">
+                <input id="search-button" type="submit" value="Submit">
+            </form>
+            </div>
+            <div id="x-button" class="hide">
+                <img style="width: 20px; height: 20px;" src="x.png">
+            </div>
         </div>
-        <h3>Now Playing</h3>
-        <div id="one">
-            <div>
-                <img src="popcorn.png">
-                <p class="all"> <span class="star">&#11088</span> <span class="rating">3.4</span></p>
-                <h6 class="name">Movie Name</h6>
+            <hr>
+        
+            <div id="search">
+                <h1>Now Playing</h1>  
             </div>
-            <div>
-                <img src="popcorn.png">
-                <p class="all"> <span class="star">&#11088</span> <span class="rating">3.4</span></p>
-                <h6 class="name">Movie Name</h6>
-            </div>
-            <div>
-                <img src="popcorn.png">
-                <p class="all"> <span class="star">&#11088</span> <span class="rating">3.4</span></p>
-                <h6 class="name">Movie Name</h6>
-            </div>
-            <div>
-                <img src="popcorn.png">
-                <p class="all"> <span class="star">&#11088</span> <span class="rating">3.4</span></p>
-                <h6 class="name">Movie Name</h6>
-            </div>
-            <div>
-                <img src="popcorn.png">
-                <p class="all"> <span class="star">&#11088</span> <span class="rating">3.4</span></p>
-                <h6 class="name">Movie Name</h6>
-            </div>
+            
+
+        <div id="display"></div>
+        <div id="help">
+            <form class="loading">
+                <input id="load" value="Load More" type="submit">
+            </form>
         </div>
     </body>
 </html>

@@ -1,31 +1,80 @@
 * {
     background-color: darkgray;
 }
-#title h1 {
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;;
+}
+
+#x-button {
+  padding-top: 50px;
+  padding-right: 200px;
+}
+
+.hide {
+  display: none;
+}
+
+#search h1 {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-align: center;
 }
 
-h3 {
-    font-family: 'Courier New', Courier, monospace;
-    color: white; 
+.disappear {
+  display: none;
 }
 
-img {
-    width: 300px;
-}
-
-.all {
-    text-align: center;
-}
-
-.name {
-    text-align: center;
-}
-
-#one {
+#display {
+    padding-top: 30px;
     display: flex;
-    justify-content: space-evenly;
-}
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .all {
+    width: 300px;
+  }
+
+  #help {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #load {
+    align-items: center;
+  }
+
+  .image {
+    width: 300px;
+    height: 400px;
+    transition: transform .2s;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+  }
+
+  hr {
+    border-color: black;
+    border-style: dotted;
+  }
+
+  #searching {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row;
+  }
+
+  
 
