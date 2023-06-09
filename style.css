@@ -10,13 +10,13 @@
     padding-bottom: 30px;;
 }
 
-#x-button {
+#close-search-btn {
   padding-top: 70px;
   padding-right: 200px;
   transition: transform .2s;
 }
 
-#x-button:hover {
+#close-search-btn:hover {
   transform: scale(1.2);
 }
 
@@ -34,14 +34,14 @@
   display: none;
 }
 
-#display {
+#movies-grid {
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  .all {
+  .movie-card {
     width: 300px;
   }
 
@@ -52,17 +52,14 @@
     padding-bottom: 50px;
   }
 
-  #load {
-    align-items: center;
-  }
 
-  .image {
+  .movie-poster {
     width: 300px;
     height: 400px;
     transition: transform .2s;
   }
 
-  .image:hover {
+  .movie-poster:hover {
     transform: scale(1.1);
   }
 
@@ -83,4 +80,8 @@
 
   #extra {
     padding-left: 30px;
+  }
+
+  #popup {
+    background-color: aqua;
   }

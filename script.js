@@ -2,14 +2,15 @@
 const api_key = "28ea94cca76765ee8f74b3f4ee0f374a";
 var page = 1;
 const baseURL = 'https://api.themoviedb.org/3';
-const display = document.querySelector("#display");
-const loadButton = document.querySelector(".loading");
+const display = document.querySelector("#movies-grid");
+const loadButton = document.querySelector("#load-more-movies-btn");
 const newLoad = document.querySelector(".loading_2");
 const search_input = document.getElementById("search-input");
 const search_form = document.getElementById("searchForm");
-const x_button = document.getElementById("x-button");
+const x_button = document.getElementById("close-search-btn");
 const label = document.getElementById("label");
 const body = document.querySelector("body");
+const poster = document.querySelector(".image");
 
 /**
  *
@@ -21,12 +22,11 @@ const body = document.querySelector("body");
  */
 function displayResults(results) {
     display.innerHTML += `
-        <div class="all">
-            <img class="image" src="https://image.tmdb.org/t/p/w342${results.poster_path}" alt="${results.original_title}">
-            <div class="description">
-                <p class="all"> <span class="star">&#11088</span> <span class="rating">${results.vote_average}</span></p>
-                <h4 class="name">${results.original_title}</h4>
-            </div>
+        <div class="movie-card">
+            <img class="movie-poster" src="https://image.tmdb.org/t/p/w342${results.poster_path}" alt="${results.original_title}">
+            
+                <p class="movie-voting"> <span class="star">&#11088</span> <span class="rating">${results.vote_average}</span></p>
+                <h4 class="movie-title">${results.original_title}</h4>
         </div>
         `;
 }
@@ -65,7 +65,8 @@ async function getSearchMovieApiResults(searchTerm) {
     data.results.forEach(element => {
         displayResults(element);
     });
-    label.innerText = `Search Query = "${searchTerm}"`;
+    label.innerText = `Searching "${searchTerm}"`;
+    console.log(data.results);
     
 }
 
@@ -83,7 +84,6 @@ async function getMovieApiResults() {
     });
     
 }
-
 /**
  * The function responsible for handling all form submission events.
  *
@@ -149,10 +149,11 @@ async function handleShowMore(event) {
 window.onload = function () {
     newLoad.classList.add("hide");
     getMovieApiResults();
-    loadButton.addEventListener("submit", handleShowMore);
+    loadButton.addEventListener("click", handleShowMore);
     //search_input.addEventListener("click", xAppear);
     search_form.addEventListener("submit", handleSearch);
     search_form.addEventListener("submit", xAppear);
     x_button.addEventListener("click", xButtonWorking);
     newLoad.addEventListener("submit", handleSearchShowMore);
+
 }
