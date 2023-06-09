@@ -40,7 +40,7 @@ Deployed Application (optional): [Flixster Deployed Site]("https://stringlady.gi
 
 ### Walkthrough Video
 
-<iframe src="https://www.loom.com/embed/f7dc11744b1d41a7a0b8c91a3c86d8bc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+<a href="https://www.loom.com/embed/f7dc11744b1d41a7a0b8c91a3c86d8bc">Walkthrough Video</a>
 
 ### Reflection
 
@@ -66,8 +66,8 @@ In regard to my project demo, I had a lot of fun preparing it. In my feeedback f
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
-## Abbas Islaw
+#### Abbas Islaw
 Abbas was able to help me out with viewing my poster image as I was having trouble.
 
-## Elena Reach (instructor)
+#### Elena Reach (instructor)
 Elena helped me in one of the weekly labs with fetching the correct data from the API which helped me on this project.
