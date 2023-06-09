@@ -1,5 +1,3 @@
-📝 **NOTE** Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Week 1 Assignment: Flixster
 
 Submitted by: **Anaya Bussey**
@@ -42,28 +40,34 @@ Deployed Application (optional): [Flixster Deployed Site]("https://stringlady.gi
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+<div style="position: relative; padding-bottom: 53.90625%; height: 0;"><iframe src="https://www.loom.com/embed/f7dc11744b1d41a7a0b8c91a3c86d8bc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Reflection
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The topics that were in the labs were very helpful in order to complete the assignment. Also, the labs were very detailed and I never felt unprepared during my work on the weekly assignment. I learned a lot through the lessons about fatching APIs, HTML/CSS/Javascript, Vanilla Dom, and Github. Not only that, but there were also a lot of helpful resources online that helped me figure out what I needed to do along with the useful and helpful videos provided in the lab instructions.
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I did have more tiem I would have used a pop-up menu that allows the user to view more details regarding the specific movie that they pressed. I worked on this feature for a signifigant amount of time but was never able to make it work. Something else that I would improve upon would be to have excersized commenting and clean code throughout my time working ont this project. A lot of the functions do not have any comments or, if they do, the comments are not clear. Also, there is no specific order in which my functions are placed. I have all of my constants at the top but my functions are pretty random.
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+In regard to my project demo, I had a lot of fun preparing it. In my feeedback from my peers, I heard that my presentation was very detailed and thorough. Everything throughout my demo went as planned and I gained a lot of extra presentation experience from this activity. Based on my peers, I saw one had a working pop-up and, as I expressed eariler, it was something that I was hoping to implement but did not get around to having it working.
 
 ### Open-source libraries used
 
 - Add any links to open-source libraries used in your project.
 
+<a href="https://github.com">Github</a>
+
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
+## Abbas Islaw
+Abbas was able to help me out with viewing my poster image as I was having trouble.
+
+## Elena Reach (instructor)
+Elena helped me in one of the weekly labs with fetching the correct data from the API which helped me on this project.
