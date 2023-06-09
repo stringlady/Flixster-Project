@@ -11,8 +11,13 @@
 }
 
 #x-button {
-  padding-top: 50px;
+  padding-top: 70px;
   padding-right: 200px;
+  transition: transform .2s;
+}
+
+#x-button:hover {
+  transform: scale(1.2);
 }
 
 .hide {
@@ -76,5 +81,6 @@
     flex-direction: row;
   }
 
-  
-
+  #extra {
+    padding-left: 30px;
+  }
