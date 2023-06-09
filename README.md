@@ -40,7 +40,7 @@ Deployed Application (optional): [Flixster Deployed Site]("https://stringlady.gi
 
 ### Walkthrough Video
 
-<a href="https://www.loom.com/embed/f7dc11744b1d41a7a0b8c91a3c86d8bc">Walkthrough Video</a>
+<a href="https://www.loom.com/embed/f7dc11744b1d41a7a0b8c91a3c86d8bc" target="_blank">Walkthrough Video</a>
 
 ### Reflection
 
