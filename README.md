@@ -40,7 +40,10 @@ Deployed Application (optional): [Flixster Deployed Site]("https://stringlady.gi
 
 ### Walkthrough Video
 
-<a href="https://www.loom.com/embed/f7dc11744b1d41a7a0b8c91a3c86d8bc" target="_blank">Walkthrough Video</a>
+<a href="https://www.loom.com/share/f7dc11744b1d41a7a0b8c91a3c86d8bc">
+    <p>Flixster - 9 June 2023 - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f7dc11744b1d41a7a0b8c91a3c86d8bc-with-play.gif">
+</a>
 
 ### Reflection
 
